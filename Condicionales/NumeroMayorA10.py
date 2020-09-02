@@ -8,4 +8,3 @@ elif num1 == 10:
 
 else:
     print("Su numero es menor a 10")
-

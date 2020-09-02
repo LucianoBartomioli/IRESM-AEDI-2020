@@ -32,15 +32,15 @@ def suma_prim_igual_ter(num1, num2, num3):
 def dos_num_enteros(a, b):
 
     if a > b:
-        CuadradoPrimero = a ^ 2
-        CuadradoSegundo = b ^ 2
+        CuadradoPrimero = a ** 2
+        CuadradoSegundo = b ** 2
     elif a == b:
 
         z=str("1")
         return z
     else:
-        CuadradoPrimero = b ^ 2
-        CuadradoSegundo = a ^ 2
+        CuadradoPrimero = b ** 2
+        CuadradoSegundo = a ** 2
 
     Division = CuadradoPrimero / CuadradoSegundo
 
