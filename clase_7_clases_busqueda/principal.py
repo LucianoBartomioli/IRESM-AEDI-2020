@@ -1,4 +1,4 @@
-from
+from clase_7_clases_busqueda.clases import Empleado
 def opciones_menu():
     print("Ingrese 1 para cargar un empleado")
     print("Ingrese 2 para mostrar la lista de empleados")
@@ -17,4 +17,4 @@ def menu():
     while opcion != 0:
 
         if opcion == 1:
-            empleado = Empleado()0
+            empleado = Empleado()

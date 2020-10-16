@@ -1,4 +1,4 @@
-from IRESM_AEDI_2020.practico_integrador.metodos import notas
+from practico_integrador.metodos import Notas
 
 alumnos_notas = []
 
@@ -6,7 +6,7 @@ alumnos_notas = []
 def cargar_nota():
     nombre = (input("Ingrese el nombre del alumno: "))
     nota = (input("Ingrese la nota del alumno: "))
-    nota1 = notas(nombre, nota)
+    nota1 = Notas(nombre, nota)
     alumnos_notas.append(nota1)
 
 
